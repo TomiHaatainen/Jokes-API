@@ -79,7 +79,7 @@ app.get('/types', (req, res, next) => {
 })
 
 app.get('/jokes/count', (req, res, next) => {
-  res.json(count)
+  res.json(count);
 })
 
 app.use((err, req, res, next) => {
